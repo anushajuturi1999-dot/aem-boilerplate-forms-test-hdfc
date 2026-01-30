@@ -44,11 +44,11 @@ function days(endDate, startDate) {
 
 /**
 * Masks the first 5 digits of the mobile number with *
-* @param {*} mobileNumber
+* @param {*} mobile_number
 * @returns {string} returns the mobile number with first 5 digits masked
 */
-function maskMobileNumber(mobileNumber) {
-  if (!mobileNumber) {
+function maskMobileNumber(mobile_number) {
+  if (!mobile_number) {
     return '';
   }
   const value = mobileNumber.toString();
