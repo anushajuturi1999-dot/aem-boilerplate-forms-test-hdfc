@@ -792,3 +792,18 @@ main div.form-wrapper {
 main .form form select[multiple] {
     height: calc(42px + 50px);
 }
+
+
+/* Custom Form Styling */
+
+main .form form .field-wrapper label {
+    font-weight: 600;
+}
+
+main .form form .text-wrapper>input {
+    border: 1px solid #ff00f2;
+}
+
+main .form form .field-mobile-number>label {
+    color: #a600fa;
+}
